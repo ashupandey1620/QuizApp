@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of questions"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/idTVQuestionsSelected" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVQuestion"
+        android:layout_below="@id/idTVQuestionsSelected"
+        android:layout_marginTop="30dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVQuestion"
+        android:orientation="vertical"
+        android:padding="40dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+             android:padding="4dp"
+            android:text="Option A"
+            android:textAllCaps="false"
+            android:id="@+id/idBtnOptionA"
+            android:background="@color/purple_500"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option B"
+            android:textAllCaps="false"
+            android:id="@+id/idBtnOptionB"
+            android:background="@color/purple_500"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option C"
+            android:textAllCaps="false"
+            android:id="@+id/idBtnOptionC"
+            android:background="@color/purple_500"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option D"
+            android:textAllCaps="false"
+            android:id="@+id/idBtnOptionD"
+            android:background="@color/purple_500"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
