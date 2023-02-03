@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     private TextView TVQuestion,TVQuestionAlphabet;
     private Button OptionAButton,OptionBButton,OptionCButton,OptionDButton;
