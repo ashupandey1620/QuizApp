@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity{
         View bottomSheetView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.score_b_sheet,(LinearLayout)findViewById(R.id.idLLScore));
         TextView scoreTV = bottomSheetView.findViewById(R.id.idTVScore);
         Button restartQuizBtn = bottomSheetView.findViewById(R.id.idBtnRestart);
-        scoreTV.setText("your score is \n"+score+"/10");
+        scoreTV.setText("your score is \n"+score+"/5");
         restartQuizBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity{
             showBottomSheet();
         }
         else {
-            TVQuestionAlphabet.setText("Question attempted:  " + attempted + "/10");
+            TVQuestionAlphabet.setText("Question attempted:  " + attempted + "/5");
             TVQuestion.setText(quizmoduleArrayList.get(currentPosition).getQuestion());
 
             OptionAButton.setText(quizmoduleArrayList.get(currentPosition).getOptionA());
